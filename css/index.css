@@ -175,13 +175,13 @@ header nav .container ul li:hover a {
 .contact-us .fa-solid{
     color: #0021F5;
     margin: 0 20px 50px 0;
-    transition: 0.24s;
+    transition: 0.13s;
 }
 
 .contactus-link{
     text-decoration: none;
     color:black;
-    transition: 0.24s;
+    transition: 0.13s;
 }
 /* made the icons change color and be larger when hovered over*/
 .contactus-link:hover .fa-solid{
