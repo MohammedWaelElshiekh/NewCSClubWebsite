@@ -136,31 +136,7 @@ header nav .container ul li:hover a {
     grid-template-columns: repeat(3, minmax(calc((992px - 80px) / 3), 1fr));
   }
 }
-/* made text and icons smaller for phones in the contact-us section */
-@media (max-width: 450px) {
-  .contact-us-container {
-    gap: 25px;
-  }
-  .contactus-title {
-    margin-bottom: 30px;
-  }
-  .contactus-link {
-    font-size: 1.6rem;
-  }
-  .contact-us .fa-solid {
-    margin: 0 10px 30px 0;
-  }
-  .contact-us .contactus-link:hover {
-    cursor: pointer;
-    color: #0021f5;
-    font-size: 1.7rem;
-  }
-  .contactus-link:hover .fa-solid {
-    cursor: pointer;
-    color: #0021f5;
-    font-size: 42px;
-  }
-}
+
 /* End media Queries */
 
 /* End Header */
@@ -268,7 +244,7 @@ header nav .container ul li:hover a {
 .contact-us-container {
   display: flex;
   gap: 70px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 /* styling of fontawesome icons*/
 .contact-us .fa-solid {
@@ -301,5 +277,34 @@ header nav .container ul li:hover a {
   font-style: italic;
   font-weight: 900;
 }
-
+/* made text and icons smaller for phones in the contact-us section */
+@media (max-width: 450px) {
+  .contact-us-container {
+    gap: 25px;
+  }
+  .contactus-title {
+    margin-bottom: 30px;
+  }
+  .contactus-link {
+    font-size: 1.6rem;
+  }
+  .contact-us .fa-solid {
+    margin: 0 10px 30px 0;
+  }
+  .contact-us .contactus-link:hover {
+    cursor: pointer;
+    color: #0021f5;
+    font-size: 1.7rem;
+  }
+  .contactus-link:hover .fa-solid {
+    cursor: pointer;
+    color: #0021f5;
+    font-size: 42px;
+  }
+}
+@media (max-width: 820px) {
+  .contact-us-container {
+    flex-wrap: wrap;
+  }
+}
 /* end contact us */
