@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rec{
+display: flex;
+gap:3rem;
+}
+.rac{
+    display: flex;
+    gap:5rem;
+}
+nav{
+display:flex;
+align-items:center;
+position:relative;
+top:500px;
+background-color:#063081;
+background-size:800px;
+gap:200px;
+}
+nav table th{
+list-style-type: none;
+display: inline-block;
+padding:5px 10px;
+}
+nav table th a{
+color:white;
+text-decoration:none;
+font-weight: bold;
+font-size: 25px;
+}
+nav table th :hover {
+color:black;
+transition:.3s;
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+padding:10px 20px;
+}
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight: bold;
+font-size: 25px;
+}
+nav ul li :hover{
+color:black;
+transition:.3s;
+}
+.map{
+height:100px;
+width:100px;
+padding-left:5px;
+padding-bottom: 50px;
+padding-top:3px;
+}
+.ho{
+position: relative;
+top:460px;
+}
+.copyrights{
+position:relative;
+top:455px;
+color:white;
+padding-left:5px;
+}
