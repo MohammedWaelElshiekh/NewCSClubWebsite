@@ -4,8 +4,10 @@
   font-family: Kokoro;
   src: url(../fonts/Kokoro-Regular.ttf);
 }
-
+/* Roboto Font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* Inter Font & Koh Santepheap */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Koh+Santepheap:wght@100;300;400;700;900&display=swap");
 
 :root {
   /* spaces collection */
@@ -135,6 +137,108 @@ header nav .container ul li:hover a {
   .features ul {
     grid-template-columns: repeat(3, minmax(calc((992px - 80px) / 3), 1fr));
   }
+}
+.header-content {
+  margin: auto;
+}
+.header-content h1 {
+  font-size: 3rem; /* Adjust font size */
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  color: white;
+  margin: 0;
+}
+.header-content p {
+  font-size: 1.5rem; /* Adjust font size */
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.vision {
+  background-image: url("../imgs/code-image2.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+  top: 300px;
+  margin-top: 100px;
+}
+
+.vision h2 {
+  font-size: 2em;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.vision p {
+  font-size: 1.2em;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: white;
+  color: black;
+  padding: 10px 50px;
+  border-radius: 5px;
+  line-height: 30px;
+  font-family: "Koh Santepheap", serif;
+}
+
+.academic-files {
+  background-color: #d9d9d9;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.academic-text {
+  border-width: 2px; /* Sets the border width */
+  border-style: solid; /* Sets the border style */
+  border-color: white; /* Sets the border color */
+  padding: 10px; /* Optional: Adds padding inside the border */
+  background-color: white;
+}
+
+.academic-files h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+.file-card {
+  display: inline-block;
+  width: 500px;
+  height: 400px;
+  margin: 0 20px;
+  vertical-align: top;
+  text-align: left;
+  background-color: white;
+  overflow: hidden;
+}
+
+.file-card img {
+  width: auto;
+  height: 70%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.file-card p {
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.academic-text {
+  padding: 10px;
+  font-size: 20px;
 }
 
 /* End media Queries */
@@ -308,3 +412,69 @@ header nav .container ul li:hover a {
   }
 }
 /* end contact us */
+/* start footer */
+/* .rec {
+  display: flex;
+  gap: 3rem;
+}
+.rac {
+  display: flex;
+  gap: 5rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 500px;
+  background-color: #063081;
+  background-size: 800px;
+  gap: 200px;
+}
+nav table th {
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 10px;
+}
+nav table th a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+nav table th :hover {
+  color: black;
+  transition: 0.3s;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+nav ul li :hover {
+  color: black;
+  transition: 0.3s;
+}
+.map {
+  height: 100px;
+  width: 100px;
+  padding-left: 5px;
+  padding-bottom: 50px;
+  padding-top: 3px;
+}
+.ho {
+  position: relative;
+  top: 460px;
+}
+.copyrights {
+  position: relative;
+  top: 455px;
+  color: white;
+  padding-left: 5px;
+} */
+/* end footer */

@@ -1,67 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Obour STEM CS Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <div class="semi-transparent-bar">
+      <div class="header-content">
+        <h1>Obour STEM Computer Science Club</h1>
+        <p>Thrilling community to learn more about coding</p>
+      </div>
+      <div class="header-links">
+        <div class="blue-text">
+          <a href="#">who are we? </a>
         </div>
-        <div class="header-container">
-            <div class="logo">
-                <img src="C:\Users\Admins\Downloads\logo.jpg" alt="Logo">
-            </div>
+        <div class="darkblue-text">
+          <a href="#">apply</a>
+          <a href="#">competition</a>
+          <a href="#">Contact us</a>
         </div>
-        <div class="header-content">
-            <h1>Obour STEM Computer Science Club</h1>
-                <p>Thrilling community to learn more about coding</p>
-        </div>
-        <div class="header-links">
-            <div class="blue-text">
-                <a href="#">who are we? </a>
-            </div>
-            <div class="darkblue-text">
-                <a href="#">apply</a>
-                <a href="#">competition</a>
-                <a href="#">Contact us</a>
-            </div>
-        </div>
-        
-        
-        
+      </div>
     </header>
 
     <section class="white-box">
-        <section class="vision">
-            <h2>Our Vision</h2>
-            <p>
-                To inspire and empower students to explore and excel in the fields of Science,Technology, Engineering, Mathematics, and Computer Science.
-                Through hands-on learning, innovative projects, and collaborative experiences. 
-                Our vision is to cultivate a community where creativity, critical thinking, and problem-solving skills flourish, 
-                preparing members to become future leaders and innovators in the global digital age.
-            </p>
-        </section>
+      <section class="vision">
+        <h2>Our Vision</h2>
+        <p>
+          To inspire and empower students to explore and excel in the fields of
+          Science,Technology, Engineering, Mathematics, and Computer Science.
+          Through hands-on learning, innovative projects, and collaborative
+          experiences. Our vision is to cultivate a community where creativity,
+          critical thinking, and problem-solving skills flourish, preparing
+          members to become future leaders and innovators in the global digital
+          age.
+        </p>
+      </section>
     </section>
 
-        <section class="academic-files">
-            <h2>Academic Files</h2>
-            <div class="file-card">
-                <img src="C:\Users\Admins\Downloads\presentation.jpg" alt="Academic File 1">
-                <div class="academic-text">
-                    <p>As the club members focused on presenting their academic projects, we present to you an academic guide...</p>
-                </div>
-            </div>
-            <div class="file-card">
-                <img src="C:\Users\Admins\Downloads\image.jpg" alt="Academic File 2">
-                <div class="academic-text">
-                    <p>We also focused on introducing students to various computer science fields with the right guidance...</p>
-                </div>
-            </div>
-        </section>
+    <section class="academic-files">
+      <h2>Academic Files</h2>
+      <div class="file-card">
+        <img
+          src="C:\Users\Admins\Downloads\presentation.jpg"
+          alt="Academic File 1" />
+        <div class="academic-text">
+          <p>
+            As the club members focused on presenting their academic projects,
+            we present to you an academic guide...
+          </p>
+        </div>
+      </div>
+      <div class="file-card">
+        <img src="C:\Users\Admins\Downloads\image.jpg" alt="Academic File 2" />
+        <div class="academic-text">
+          <p>
+            We also focused on introducing students to various computer science
+            fields with the right guidance...
+          </p>
+        </div>
+      </div>
     </section>
-    
-</body>
+  </body>
 </html>
